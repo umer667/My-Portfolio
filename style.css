@@ -1,0 +1,274 @@
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
+*{
+    margin: 0;
+    padding: 0;
+}
+.sidebar{
+    background-color: rgb(194, 191, 191);
+    font-family: 'Fira Sans',sans-serif;
+    transition: transform 0.3s ease-in;
+    position: absolute;
+}
+.sidebar nav{
+    padding: 45px;
+}
+.sidebar nav li{
+    font-size: 30px;
+    list-style: none;
+    padding: 33px 0;
+}
+.sidebar nav li a{
+    text-decoration: none;
+    color: black;
+}
+.main{
+    /*background-color: yellow;*/
+    width: 90%;
+}
+.container{
+    display: flex;
+}
+.infocontainer{
+    /*background-color: yellowgreen;*/
+    height: 58vh;
+    width: 80vw;
+    margin: 144px auto;
+    display: flex;
+    justify-content: space-around;
+    font-family: 'Source Code Pro',sans-serif;
+}
+.devinfo{
+    font-size: 15px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+.hello{
+    font-size: 3em;
+}
+.name{
+    font-size:3em;
+    font-weight: bold;
+    font-family: 'Fira Sans',sans-serif;
+}
+.about{
+    font-size: 2.5em;
+}
+.moreabout{
+    font-size: 2em;
+    margin-top: 23px;
+}
+.btn{
+    margin-top: 10px;
+}
+.btn button{
+    padding: 9px 14px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 2em;
+    margin: 0 3px;
+    color: white;
+    background-color: dodgerblue;
+}
+.btn button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+
+.contactform button{
+    padding: 10px 19px;
+    border-radius: 22px;
+    cursor: pointer;
+    font-weight: bold;
+    font-size: 15px;
+    margin: 12px 0;
+    color: white;
+    background-color: dodgerblue;
+}
+.contactform button:hover{
+    background-color: white;
+    color: dodgerblue;
+}
+.devpic img{
+    height: 58vh;
+}
+.contactform{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 0 88px;
+    padding: 0 34px;
+}
+.contactform h1{
+    font-family: 'Source Code Pro',sans-serif;
+    padding-top: 144px;
+ } 
+ .contactform form div{
+    padding: 10px 0;
+    display: flex;
+    flex-direction: column;
+ }
+ .contactform form div input{
+    width: 26vw;
+    border-radius: 5px;
+    margin: 6px 0 0 0;
+    padding: 3px;
+ }
+ #emailHelp{
+    font-size: 11px;
+    color: midnightblue;
+    margin: 0 5px;
+    padding: 3px 0 0 0;
+ }
+ #form-check{
+    flex-direction: row;
+ }
+ #form-check input{
+    width: 24px;
+    margin: 3px 0;
+ }
+ h1{
+    margin: 20px;
+    font-family: 'Fira Sans',sans-serif;
+ }
+ .blogcontainer{
+    margin: 10px 88px;
+ }
+ .blogitem{
+    margin: 20px;
+    font-family: 'Fira Sans',sans-serif;
+ }
+ .blogitem h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+ }
+ .blogitem p{
+    font-family: 'Source Code Pro',sans-serif;
+    margin: 23px;
+ }
+ .blogitem button{
+        padding: 9px 14px;
+        border-radius: 22px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 3px;
+        color: white;
+        background-color: dodgerblue;
+ }
+ .blogitem button:hover{
+        background-color: white;
+        color: dodgerblue;
+ }
+ .intro{
+    margin: 10px 88px;
+ }
+
+ .intro h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 12px;
+ }
+ .intro p{
+    font-family: 'Source Code Pro',sans-serif;
+    margin: 12px;
+ }
+ .skillcontainer{
+    padding: 12px;
+ }
+ .skillitem{
+    display: flex;
+    align-items: center;
+    font-family: 'Source Code Pro',sans-serif;
+    font-weight: 900;
+ }
+ .skill{
+    width: 265px;
+    height: 6px;
+    background-color: red;
+    border: 2px solid black;
+ }
+ .e5{
+    width: 225px;
+    background-color: blueviolet;
+ }
+ .s0{
+    width: 175px;
+    background-color: aquamarine;
+ }
+ .t5{
+    width: 75px;
+    background-color: yellowgreen;
+ }
+ .projects ul li{
+    font-family: 'Source Code Pro',sans-serif;
+    margin: 12px;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 400;
+ }
+ .hobby ul li{
+    font-family: 'Source Code Pro',sans-serif;
+    margin: 12px;
+    align-items: center;
+    list-style-type: none;
+    font-weight: 500;
+ }
+ .servicecontainer{
+    margin: 10px 88px;
+ }
+ .Serviceitem{
+    margin: 20px;
+    font-family: 'Fira Sans',sans-serif;
+ }
+ .Serviceitem h2{
+    font-family: 'Fira Sans',sans-serif;
+    margin: 23px;
+ }
+ .Serviceitem p{
+    font-family: 'Source Code Pro',sans-serif;
+    margin: 23px;
+ }
+ .Serviceitem button{
+        padding: 9px 14px;
+        border-radius: 22px;
+        cursor: pointer;
+        font-weight: bold;
+        font-size: 12px;
+        margin: 0 3px;
+        color: white;
+        background-color: dodgerblue;
+ }
+ .Serviceitem button:hover{
+        background-color: white;
+        color: dodgerblue;
+ }
+ .hamburger{
+    position: absolute;
+    cursor: pointer;
+    top: 10px;
+    left: 10px;
+ }
+ .sidebargo{
+    transform: translate(-443px, 0px);
+    position: absolute;
+ }
+ .cross{
+    margin-left: 150px;
+ }
+
+@media only screen and (max-width: 1200px) {
+   /* *{
+        background-color: rgb(230, 138, 138);
+ }
+    .sidebar{
+        transform: translate(-443px, 0px);
+        position: absolute;
+     }*/
+     .devpic{
+        display: none;
+     }
+     .intro, .blogcontainer,.contactform{
+        margin: 50px 8px;
+     }
+  }
